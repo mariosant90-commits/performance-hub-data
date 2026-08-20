@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-08-20T22:10:00+03:00",
+  "purpose": "Fallback estimates for recent wellness dates where Garmin steps/calorie fields are null. These are estimates, not Garmin-observed values.",
+  "resting_baseline_kcal": 1860,
+  "method": "Point estimates anchored to the user's recent Garmin resting-calorie baseline (~1858-1860 kcal/day), recorded activities, known travel/activity context, and known 2026-08-18 step count. Do not overwrite observed Garmin values when they become available.",
+  "dates": [
+    {"date":"2026-08-11","calories_total_estimate":3050,"calories_active_estimate":1190,"steps":null,"confidence":"medium","basis":"16.62 km 10x800m running session plus normal daily movement"},
+    {"date":"2026-08-12","calories_total_estimate":2450,"calories_active_estimate":590,"steps":null,"confidence":"medium","basis":"1600 m pool swim plus 47.6 min strength session plus normal daily movement"},
+    {"date":"2026-08-13","calories_total_estimate":2600,"calories_active_estimate":740,"steps":null,"confidence":"medium","basis":"10.00 km run plus normal daily movement"},
+    {"date":"2026-08-14","calories_total_estimate":2000,"calories_active_estimate":140,"steps":null,"confidence":"low-medium","basis":"No recorded training activity; normal-day movement estimate"},
+    {"date":"2026-08-15","calories_total_estimate":3150,"calories_active_estimate":1290,"steps":null,"confidence":"medium","basis":"18.01 km Z2 run plus normal daily movement"},
+    {"date":"2026-08-16","calories_total_estimate":2300,"calories_active_estimate":440,"steps":null,"confidence":"medium","basis":"Travel day Larnaca to Preveza/Sivota with driving and light pool activity"},
+    {"date":"2026-08-17","calories_total_estimate":2475,"calories_active_estimate":615,"steps":null,"confidence":"medium","basis":"6.00 km run plus 28 min kayaking and general holiday movement"},
+    {"date":"2026-08-18","calories_total_estimate":2150,"calories_active_estimate":290,"steps":9121,"confidence":"medium-high","basis":"Known 9121 steps; no recorded workout; beach/driving day"},
+    {"date":"2026-08-19","calories_total_estimate":2500,"calories_active_estimate":640,"steps":null,"confidence":"medium","basis":"8.00 km easy run plus normal daily movement"},
+    {"date":"2026-08-20","calories_total_estimate":2150,"calories_active_estimate":290,"steps":null,"confidence":"low-medium","basis":"Travel day back from Sivota; no recorded workout as of 22:01 local"}
+  ]
+}
